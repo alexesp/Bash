@@ -23,3 +23,5 @@ RUN service ssh start
 #Mapeo de puerto 22
 EXPOSE 22
 CMD ["/usr/sbin/sshd", "-D"]
+#Start contenedor
+#docker run -d -p 2022:22 ubuntu-ssh
